@@ -1,4 +1,4 @@
-# Improved Libft ![norminette](https://github.com/a-karah/libft-standard-library/workflows/norminette/badge.svg)
+# Standard 42 library ![norminette](https://github.com/a-karah/libft-standard-library/workflows/norminette/badge.svg)
 
 This library currently contains libft ft_printf and get-next-line.
 
