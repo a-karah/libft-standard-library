@@ -1,5 +1,30 @@
 # Standard 42 library ![norminette](https://github.com/a-karah/libft-standard-library/workflows/norminette/badge.svg)
 
-This library currently contains libft ft_printf and get-next-line.
+An attempt to recreate standard library implementation in C with compliance to norminette.
 
-In future planning to add vector, matrix, and malloc implementations.
+## Principles:
+- Keep every sub-library separate
+- Norminette respected
+- Use as minimum external dependency as possible
+
+## Why do such masochism?
+I always wondered how thing worked under the hood, and wanted to do something that can keep me busy for a long time as a hobby.
+
+## TODO:
+### Add following libraries:
+- [x] libft
+- [x] ft_printf
+- [x] get-next-line
+- [ ] dynamic array
+- [ ] malloc
+- [ ] vector
+- [ ] matrix
+
+### Short-term goals:
+- [ ] Separate headers to decouple library dependency on each other
+- [ ] Compile as a dynamic library
+- [ ] Add test framework
+
+### Long-term goals:
+- [ ] All sub-libraries should depend only on syscall functions or be self-reliant
+- [ ] Maybe separate sub-libraries as submodules?
