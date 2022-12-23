@@ -24,6 +24,7 @@ I always wondered how thing worked under the hood, and wanted to do something th
 - [ ] Separate headers to decouple library dependency on each other
 - [ ] Compile as a dynamic library
 - [ ] Add test framework
+- [ ] Add build workflow for macOS and Linux-based platforms
 
 ### Long-term goals:
 - [ ] All sub-libraries should depend only on syscall functions or be self-reliant
